@@ -574,4 +574,4 @@ function postpone(fn: (value: void) => void) {
 
 // Compatibility Export to avoid `require(...).default` on CommonJS.
 // See: https://github.com/Microsoft/TypeScript/issues/2719
-export = ReactQuill;
+export default ReactQuill;
